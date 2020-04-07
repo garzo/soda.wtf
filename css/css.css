@@ -10,7 +10,27 @@ body {
     background-size: auto;
 }
 .wrap { 
-    margin-top: 25%;
+    margin-top: 20%;
     font-size: calc(1.25em + 1vw)
 }
 
+#waveform {
+    height: auto;
+    color: #fff;
+    width: 75%;   
+    overflow: hidden;
+    margin-top: 10%
+}
+
+button {
+    font-family: 'Share Tech Mono', monospace, sans-serif;
+    padding: 1.5rem;
+    background: #000;
+    border: 1px solid #FFC300;
+    color: #FFC300;
+    font-size: 1em;
+}
+
+button i {
+    display: inline
+}
