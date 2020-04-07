@@ -1,13 +1,39 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+      <meta charset="utf-8"/>
+      <title>the sodapodcast company</title>
       <link rel="stylesheet" type="text/css" href="css/css.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Share+Tech+Mono&display=swap" rel="stylesheet">  
-      <title>radio soda-pop.</title>
+      <link href="https://fonts.googleapis.com/css2?family=Anton&family=Share+Tech+Mono&display=swap" rel="stylesheet">  
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
 
     <body>
       <div class="wrap" align="center">
-        soda.wtf is a podcast company based in chicago.
+        <p>soda.wtf is a podcast company from chicago.</p>
+         <div id="waveform" align="center"></div>
+         <button class="button" data-action="play" onClick="wavesurfer.playPause()">listen to a testimonial&nbsp; <i class="fa fa-play-circle-o"></i></button>
+        
       </div>
     </body>
+    <script src="https://unpkg.com/wavesurfer.js@3.3.1/dist/wavesurfer.js"></script>
+    <script>
+        var wavesurfer = WaveSurfer.create({ 
+          container: '#waveform',
+          progressColor: '#DDDDD',
+          waveColor: '#FFC300',
+          cursorColor: '#FFC300',
+          barWidth: 2,
+          barHeight: 1,
+          barGap: null,
+          mediaControls: true,
+          autoplay: false,
+          fillParent:true,
+          autoCenter:true,
+          hideScrollbar: true,
+          });
+
+        var track = 'https://cdn.jsdelivr.net/gh/garzo/soda.wtf/testify/heychicago_testimonial.mp3'
+        wavesurfer.load(track);
+      </script>
 </html>
