@@ -28,9 +28,10 @@ button {
     background: #000;
     border: 1px solid #FFC300;
     color: #FFC300;
-    font-size: 1em;
+    font-size: .5em;
 }
 
 button i {
-    display: inline
+    display: inline;
+    font-size: 2rem
 }
