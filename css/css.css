@@ -9,6 +9,10 @@ body {
     background-attachment: fixed;
     background-size: auto;
 }
+
+a:link      { color: #FFC300; text-decoration-style: dotted }
+a:visited   { color: #FFC300; text-decoration-style: dotted }
+
 .wrap { 
     margin-top: 20%;
     font-size: calc(1.25em + 1vw)
@@ -35,3 +39,4 @@ button i {
     display: inline;
     font-size: 2rem
 }
+
