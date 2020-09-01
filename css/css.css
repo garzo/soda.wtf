@@ -14,7 +14,7 @@ a:link      { color: #FFC300; text-decoration-style: dotted }
 a:visited   { color: #FFC300; text-decoration-style: dotted }
 
 .wrap { 
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: calc(1.25em + 1vw)
 }
 
