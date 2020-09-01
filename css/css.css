@@ -29,9 +29,8 @@ a:visited   { color: #FFC300; text-decoration-style: dotted }
 button {
     font-family: 'Share Tech Mono', monospace, sans-serif;
     padding: 1.5rem;
-    background: #000;
-    border: 1px solid #FFC300;
-    color: #FFC300;
+    background: #FFC300;
+    color: #000;
     font-size: .5em;
 }
 
